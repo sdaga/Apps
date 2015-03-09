@@ -1,0 +1,20 @@
+//
+//  Acronyms-Prefix.pch
+//  Acronyms
+//
+//  Created by Mace Windu on 3/7/15.
+//  Copyright (c) 2015 Acronyms. All rights reserved.
+//
+
+#ifndef Acronyms_Acronyms_Prefix_pch
+#define Acronyms_Acronyms_Prefix_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
