@@ -1,25 +1,24 @@
 //
-//  AcronymViewController.m
+//  MainViewController.m
 //  Acronyms
 //
 //  Created by Subhash Daga on 3/7/15.
 //  Copyright (c) 2015 Acronyms. All rights reserved.
 //
 
-#import "AcronymViewController.h"
+#import "MainViewController.h"
 #import "APIClient.h"
 #import "ResultViewController.h"
 #import <MBProgressHUD/MBProgressHUD.h>
 
-@interface AcronymViewController () <UISearchBarDelegate>
+@interface MainViewController () <UISearchBarDelegate>
 
 @property (nonatomic, strong) IBOutlet UISearchBar *searchBar;
-@property (nonatomic, strong) MBProgressHUD *progressHUD;
 @property (nonatomic, strong) ResultViewController *resultViewController;
 
 @end
 
-@implementation AcronymViewController
+@implementation MainViewController
 
 - (instancetype)init {
     self = [super init];
@@ -59,7 +58,7 @@
 - (void)showProgressHUD {
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:self.navigationController.view animated:YES];
     hud.labelText = @"Loading";
-    [self.progressHUD show:YES];
+    [hud show:YES];
 }
 
 - (void)hideProgressHUD {

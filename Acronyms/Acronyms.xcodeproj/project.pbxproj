@@ -14,9 +14,9 @@
 		DF296F831AABACC60058790E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF296F821AABACC60058790E /* AppDelegate.m */; };
 		DF296F8B1AABACC60058790E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF296F8A1AABACC60058790E /* Images.xcassets */; };
 		DF296F9A1AABACC60058790E /* AcronymsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF296F991AABACC60058790E /* AcronymsTests.m */; };
-		DF4E03861AABB44E00850455 /* AcronymViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4E03841AABB44E00850455 /* AcronymViewController.m */; };
+		DF4E03861AABB44E00850455 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4E03841AABB44E00850455 /* MainViewController.m */; };
 		DF4E038B1AABB89200850455 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4E038A1AABB89200850455 /* LaunchScreen.xib */; };
-		DF4E038D1AABCDC500850455 /* AcronymViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4E038C1AABCDC500850455 /* AcronymViewController.xib */; };
+		DF4E038D1AABCDC500850455 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF4E038C1AABCDC500850455 /* MainViewController.xib */; };
 		DF4E03921AABDE8500850455 /* LongForm.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4E03911AABDE8500850455 /* LongForm.m */; };
 		DF4E03951AABDFD700850455 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4E03941AABDFD700850455 /* APIClient.m */; };
 		DF4E03981AABF97700850455 /* LongFormTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4E03971AABF97700850455 /* LongFormTableCell.m */; };
@@ -49,10 +49,10 @@
 		DF296F931AABACC60058790E /* AcronymsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcronymsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF296F981AABACC60058790E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF296F991AABACC60058790E /* AcronymsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcronymsTests.m; sourceTree = "<group>"; };
-		DF4E03831AABB44E00850455 /* AcronymViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcronymViewController.h; sourceTree = "<group>"; };
-		DF4E03841AABB44E00850455 /* AcronymViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcronymViewController.m; sourceTree = "<group>"; };
+		DF4E03831AABB44E00850455 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		DF4E03841AABB44E00850455 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		DF4E038A1AABB89200850455 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
-		DF4E038C1AABCDC500850455 /* AcronymViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AcronymViewController.xib; sourceTree = "<group>"; };
+		DF4E038C1AABCDC500850455 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		DF4E03901AABDE8500850455 /* LongForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongForm.h; sourceTree = "<group>"; };
 		DF4E03911AABDE8500850455 /* LongForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongForm.m; sourceTree = "<group>"; };
 		DF4E03931AABDFD700850455 /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIClient.h; sourceTree = "<group>"; };
@@ -119,10 +119,9 @@
 				DF296F821AABACC60058790E /* AppDelegate.m */,
 				DF4E03931AABDFD700850455 /* APIClient.h */,
 				DF4E03941AABDFD700850455 /* APIClient.m */,
-				DF4E038A1AABB89200850455 /* LaunchScreen.xib */,
-				DF4E03831AABB44E00850455 /* AcronymViewController.h */,
-				DF4E03841AABB44E00850455 /* AcronymViewController.m */,
-				DF4E038C1AABCDC500850455 /* AcronymViewController.xib */,
+				DF4E03831AABB44E00850455 /* MainViewController.h */,
+				DF4E03841AABB44E00850455 /* MainViewController.m */,
+				DF4E038C1AABCDC500850455 /* MainViewController.xib */,
 				DF25F0D11AACE950008A58BB /* ResultViewController.h */,
 				DF25F0D21AACE950008A58BB /* ResultViewController.m */,
 				DF25F0D31AACE950008A58BB /* ResultViewController.xib */,
@@ -140,6 +139,7 @@
 		DF296F7D1AABACC60058790E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF4E038A1AABB89200850455 /* LaunchScreen.xib */,
 				DF4E03991AAC0EFB00850455 /* Acronyms-Prefix.pch */,
 				DF296F8A1AABACC60058790E /* Images.xcassets */,
 				DF296F7E1AABACC60058790E /* Info.plist */,
@@ -258,7 +258,7 @@
 				DF25F0D51AACE950008A58BB /* ResultViewController.xib in Resources */,
 				DF296F8B1AABACC60058790E /* Images.xcassets in Resources */,
 				DF4E038B1AABB89200850455 /* LaunchScreen.xib in Resources */,
-				DF4E038D1AABCDC500850455 /* AcronymViewController.xib in Resources */,
+				DF4E038D1AABCDC500850455 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +316,7 @@
 				DF25F0D41AACE950008A58BB /* ResultViewController.m in Sources */,
 				DF4E03921AABDE8500850455 /* LongForm.m in Sources */,
 				DF296F801AABACC60058790E /* main.m in Sources */,
-				DF4E03861AABB44E00850455 /* AcronymViewController.m in Sources */,
+				DF4E03861AABB44E00850455 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
