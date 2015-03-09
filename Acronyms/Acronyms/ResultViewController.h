@@ -2,7 +2,7 @@
 //  ResultViewController.h
 //  Acronyms
 //
-//  Created by Mace Windu on 3/8/15.
+//  Created by Subhash Daga on 3/8/15.
 //  Copyright (c) 2015 Acronyms. All rights reserved.
 //
 

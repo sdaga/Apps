@@ -2,7 +2,7 @@
 //  ResultViewController.m
 //  Acronyms
 //
-//  Created by Mace Windu on 3/8/15.
+//  Created by Subhash Daga on 3/8/15.
 //  Copyright (c) 2015 Acronyms. All rights reserved.
 //
 
@@ -60,11 +60,13 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    LongForm *longForm = [self.searchResults objectAtIndex:indexPath.row];
-    if (longForm.vars.count) {
-        ResultViewController *rvc = [[ResultViewController alloc] initWithSearchResults:longForm.vars
-                                                                                  title:@"Variations"];
-        [self.navigationController pushViewController:rvc animated:YES];
+    if (self.searchResults.count) {
+        LongForm *longForm = [self.searchResults objectAtIndex:indexPath.row];
+        if (longForm.vars.count) {
+            ResultViewController *rvc = [[ResultViewController alloc] initWithSearchResults:longForm.vars
+                                                                                      title:@"Variations"];
+            [self.navigationController pushViewController:rvc animated:YES];
+        }
     }
 }
 
